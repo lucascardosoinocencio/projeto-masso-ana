@@ -1,46 +1,47 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="pt-br">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ana Julia Pires • Massoterapia & Terapias Holísticas • Bauru-SP</title>
-  <meta name="description" content="Massoterapia e terapias holísticas em Bauru-SP: relaxante, pedras quentes, liberação miofascial, drenagens, Método MAF, Reiki, Barras de Access, Radiestesia e Reflexologia. Agende pelo WhatsApp." />
-  <meta name="theme-color" content="#EDE4D9" />
+  <meta name="theme-color" content="#f8f4ec" />
+
+  <title>Ana Julia Pires • Massoterapia & Terapias Energéticas</title>
+  <meta name="description" content="Massoterapia e terapias integrativas em Bauru-SP. Relaxante, pedras quentes, liberação miofascial, drenagens, método MAF, reiki, barras de access, radiestesia e reflexologia podal." />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Ana Julia Pires • Massoterapia & Terapias Holísticas" />
-  <meta property="og:description" content="Sessões personalizadas para aliviar tensões, reduzir estresse e reconectar você com o corpo. Atendimento em Bauru-SP." />
+  <meta property="og:description" content="Agende sua sessão em Bauru-SP. Relaxante, drenagens, reiki e mais." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/og-cover.jpg" />
+  <meta property="og:image" content="assets/og-image.jpg" />
   <meta property="og:locale" content="pt_BR" />
 
   <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <a class="skip" href="#inicio">Pular para o conteúdo</a>
 
-  <!-- Header Sticky -->
+  <!-- Header -->
   <header class="topbar" id="topbar">
     <div class="container topbar__inner">
-      <a class="brand" href="#inicio" aria-label="Ir para o início">
-        <div class="brand__name">Ana Julia Pires</div>
-        <div class="brand__tag">Massoterapia • Terapias Holísticas • Bauru-SP</div>
+      <a class="brand" href="#inicio" aria-label="Voltar para o início">
+        <span class="brand__name">Ana Julia Pires</span>
+        <span class="brand__tag">Massoterapia • Terapias Energéticas • Bauru-SP</span>
       </a>
 
-      <button class="nav-toggle" type="button"
+      <button class="navbtn" type="button"
         aria-label="Abrir menu"
-        aria-controls="site-nav"
+        aria-controls="nav"
         aria-expanded="false">
-        <span class="nav-toggle__icon" aria-hidden="true"></span>
+        <span class="navbtn__bars" aria-hidden="true"></span>
       </button>
 
-      <nav class="nav" id="site-nav" aria-label="Navegação do site">
+      <nav class="nav" id="nav" aria-label="Navegação principal">
         <a href="#inicio">Início</a>
         <a href="#quem-sou">Quem sou</a>
         <a href="#como-funciona">Como funciona</a>
@@ -48,713 +49,636 @@
         <a href="#faq">FAQ</a>
         <a href="#contato">Contato</a>
 
-        <a class="btn btn--primary nav__cta" target="_blank" rel="noopener"
-           href="https://wa.me/5514988321868?text=Oi%20Ana%20Julia!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sess%C3%A3o.">
-          <span class="btn__icon" aria-hidden="true">
-            <!-- WhatsApp icon -->
-            <svg viewBox="0 0 24 24" fill="none">
-              <path d="M20.5 11.9a8.5 8.5 0 0 1-12.9 7.3L4 20l.9-3.3A8.5 8.5 0 1 1 20.5 11.9Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M9.1 9.2c.2-.5.4-.5.7-.5h.6c.2 0 .4 0 .5.4.2.4.7 1.7.8 1.8.1.2.1.4 0 .6l-.3.4c-.1.2-.2.3 0 .6.2.3.8 1.4 1.9 2.2 1.4 1 1.6.9 1.9.8l.6-.2c.2-.1.4 0 .6 0l1.8.8c.3.1.4.3.4.5 0 .2 0 1.2-.5 1.7-.4.4-1.2.8-2 .7-.8-.1-3-.6-4.9-2.5-1.8-1.8-2.5-4-2.6-4.8-.1-.8.3-1.6.7-2Z" fill="currentColor" opacity=".9"/>
-            </svg>
+        <a class="btn btn--primary nav__cta"
+          href="https://wa.me/5514988321868?text=Oi%2C%20Ana!%20Vim%20pelo%20site%20e%20quero%20agendar.%20Quais%20hor%C3%A1rios%20voc%C3%AA%20tem%20essa%20semana%3F"
+          target="_blank" rel="noopener">
+          <span class="ico" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><path fill="currentColor" d="M19.11 17.47c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.17-1.34-.8-.72-1.34-1.61-1.5-1.88-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.02-.22-.52-.45-.45-.61-.46h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27 0 1.34.98 2.64 1.12 2.82.14.18 1.93 2.95 4.68 4.13.65.28 1.16.45 1.56.58.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.83-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"/><path fill="currentColor" d="M26.67 5.33A14.6 14.6 0 0 0 16.01 1C7.73 1 1 7.73 1 16c0 2.64.69 5.21 2.01 7.48L1 31l7.7-2.02A15 15 0 0 0 16.01 31C24.29 31 31 24.27 31 16a14.6 14.6 0 0 0-4.33-10.67zM16.01 28.4c-2.3 0-4.55-.62-6.5-1.79l-.47-.28-4.56 1.2 1.22-4.45-.31-.49A12.35 12.35 0 0 1 3.6 16c0-6.84 5.57-12.4 12.41-12.4 3.31 0 6.42 1.29 8.76 3.63A12.3 12.3 0 0 1 28.4 16c0 6.84-5.56 12.4-12.39 12.4z"/></svg>
           </span>
           Agendar
         </a>
       </nav>
     </div>
+
+    <div class="overlay" data-overlay></div>
   </header>
 
-  <div class="nav-overlay" data-nav-overlay aria-hidden="true"></div>
+  <!-- Main -->
+  <main id="inicio">
+    <!-- Hero -->
+    <section class="hero" aria-label="Apresentação">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <span class="pill">Cuidado que acalma</span>
+          <h1>Toque terapêutico, presença e equilíbrio para o seu bem-estar</h1>
 
-  <main id="conteudo">
-    <!-- HERO -->
-    <section class="hero section" id="inicio" aria-label="Apresentação">
-      <div class="container hero__wrap">
-        <div class="hero__card">
-          <div class="hero__media imgbox">
-            <picture>
-              <source srcset="assets/hero-massagem.webp" type="image/webp" />
-              <img src="assets/hero-massagem.jpg" alt="Ambiente acolhedor de massoterapia"
-                   loading="eager" decoding="async" data-fallback />
-            </picture>
+          <p class="lead">
+            Sessões personalizadas para aliviar tensões, reduzir estresse e reconectar você com o corpo.
+            Atendimento acolhedor em <strong>Bauru-SP</strong>, com técnicas integrativas e um ambiente zen.
+          </p>
+
+          <div class="actions">
+            <a class="btn btn--primary"
+              href="https://wa.me/5514988321868?text=Oi%2C%20Ana!%20Quero%20agendar%20uma%20sess%C3%A3o.%20Pode%20me%20passar%20os%20hor%C3%A1rios%20dispon%C3%ADveis%3F"
+              target="_blank" rel="noopener">
+              <span class="ico" aria-hidden="true">
+                <svg viewBox="0 0 32 32"><path fill="currentColor" d="M19.11 17.47c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.17-1.34-.8-.72-1.34-1.61-1.5-1.88-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.02-.22-.52-.45-.45-.61-.46h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27 0 1.34.98 2.64 1.12 2.82.14.18 1.93 2.95 4.68 4.13.65.28 1.16.45 1.56.58.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.83-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"/><path fill="currentColor" d="M26.67 5.33A14.6 14.6 0 0 0 16.01 1C7.73 1 1 7.73 1 16c0 2.64.69 5.21 2.01 7.48L1 31l7.7-2.02A15 15 0 0 0 16.01 31C24.29 31 31 24.27 31 16a14.6 14.6 0 0 0-4.33-10.67zM16.01 28.4c-2.3 0-4.55-.62-6.5-1.79l-.47-.28-4.56 1.2 1.22-4.45-.31-.49A12.35 12.35 0 0 1 3.6 16c0-6.84 5.57-12.4 12.41-12.4 3.31 0 6.42 1.29 8.76 3.63A12.3 12.3 0 0 1 28.4 16c0 6.84-5.56 12.4-12.39 12.4z"/></svg>
+              </span>
+              Agendar agora
+            </a>
+
+            <a class="btn btn--soft" href="#tecnicas">Ver técnicas</a>
+
+            <a class="btn"
+              href="https://www.instagram.com/anaju.terapeutamanual/"
+              target="_blank" rel="noopener">
+              <span class="ico" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9ZM12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6a3 3 0 0 0 0-6Zm5.75-.9a1.15 1.15 0 1 1 0 2.3a1.15 1.15 0 0 1 0-2.3Z"/></svg>
+              </span>
+              Instagram
+            </a>
+          </div>
+
+          <div class="note">
+            <span class="dot" aria-hidden="true"></span>
+            Atendimento com hora marcada • Orientação por WhatsApp
           </div>
         </div>
 
-        <div class="hero__card">
-          <div class="hero__content">
-            <span class="kicker">Cuidado que acalma</span>
-            <h1>Toque terapêutico, presença e equilíbrio para o seu bem-estar</h1>
-            <p class="lead">
-              Sessões personalizadas para aliviar tensões, reduzir estresse e reconectar você com o corpo.
-              Atendimento acolhedor em <strong>Bauru-SP</strong>, com técnicas integrativas e um ambiente zen.
-            </p>
-
-            <div class="hero__cta">
-              <a class="btn btn--primary" target="_blank" rel="noopener"
-                 href="https://wa.me/5514988321868?text=Oi%20Ana%20Julia!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sess%C3%A3o.">
-                <span class="btn__icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none">
-                    <path d="M20.5 11.9a8.5 8.5 0 0 1-12.9 7.3L4 20l.9-3.3A8.5 8.5 0 1 1 20.5 11.9Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M9.1 9.2c.2-.5.4-.5.7-.5h.6c.2 0 .4 0 .5.4.2.4.7 1.7.8 1.8.1.2.1.4 0 .6l-.3.4c-.1.2-.2.3 0 .6.2.3.8 1.4 1.9 2.2 1.4 1 1.6.9 1.9.8l.6-.2c.2-.1.4 0 .6 0l1.8.8c.3.1.4.3.4.5 0 .2 0 1.2-.5 1.7-.4.4-1.2.8-2 .7-.8-.1-3-.6-4.9-2.5-1.8-1.8-2.5-4-2.6-4.8-.1-.8.3-1.6.7-2Z" fill="currentColor" opacity=".9"/>
-                  </svg>
-                </span>
-                Agendar agora
-              </a>
-
-              <a class="btn btn--ghost" href="#tecnicas">Ver técnicas</a>
-
-              <a class="btn btn--ghost" target="_blank" rel="noopener"
-                 href="https://www.instagram.com/anaju.terapeutamanual/">
-                <span class="btn__icon" aria-hidden="true">
-                  <!-- Instagram icon -->
-                  <svg viewBox="0 0 24 24" fill="none">
-                    <path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Z" stroke="currentColor" stroke-width="1.8"/>
-                    <path d="M12 16.2a4.2 4.2 0 1 0 0-8.4 4.2 4.2 0 0 0 0 8.4Z" stroke="currentColor" stroke-width="1.8"/>
-                    <path d="M17.5 6.7h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-                  </svg>
-                </span>
-                Instagram
-              </a>
-            </div>
-
-            <div class="hero__note">
-              <span class="dot" aria-hidden="true"></span>
-              Atendimento com hora marcada • Sessões 60–90min • Orientação por WhatsApp
-            </div>
-          </div>
+        <div class="hero__media media" aria-label="Imagem do ambiente">
+          <picture>
+            <source srcset="assets/hero-massagem.webp" type="image/webp" />
+            <img src="assets/hero-massagem.jpg"
+              alt="Ambiente acolhedor de massoterapia em tons terrosos"
+              loading="eager"
+              width="1600" height="1000"
+              data-fallback />
+          </picture>
+          <div class="media__shade" aria-hidden="true"></div>
         </div>
       </div>
     </section>
 
-    <!-- QUEM SOU -->
-    <section class="section" id="quem-sou">
+    <!-- Quem sou -->
+    <section id="quem-sou" class="section">
       <div class="container">
-        <div class="section__head">
-          <span class="kicker">Quem sou eu</span>
+        <header class="head">
+          <span class="pill">Quem sou</span>
           <h2>Um cuidado com técnica, sensibilidade e presença</h2>
-          <p class="maxw">
+          <p class="muted maxw">
             Meu trabalho une massoterapia e terapias integrativas, respeitando o seu ritmo e o que o seu corpo pede hoje.
-            Aqui você encontra acolhimento, escuta e uma experiência pensada para aliviar tensões e trazer leveza.
+            Aqui, você encontra acolhimento, escuta e uma experiência pensada para aliviar tensões e trazer leveza.
           </p>
-        </div>
+        </header>
 
         <div class="about">
-          <div class="panel imgbox about__photo">
-            <picture>
-              <source srcset="assets/foto-ana.webp" type="image/webp" />
-              <img src="assets/foto-ana.jpg" alt="Ana Julia Pires"
-                   loading="lazy" decoding="async" data-fallback class="img-focus-face"/>
-            </picture>
-          </div>
-
-          <div class="panel">
-            <div class="panel__body">
-              <h3>Prazer, eu sou Ana Julia Pires.</h3>
-              <p>
-                Eu acredito que o toque terapêutico pode ser uma pausa real no meio da rotina.
-                Cada sessão começa com uma escuta simples: o que você sente, onde pesa, o que você precisa.
-                A partir disso, eu ajusto técnica, ritmo e pressão para cuidar de você com conforto e segurança — sem pressa, sem excesso, com presença.
-              </p>
-
-              <p>
-                Se você estiver em dúvida sobre qual técnica escolher, me chame no WhatsApp.
-                Eu te ajudo a encontrar a melhor opção para o seu objetivo e sensibilidade.
-              </p>
-
-              <div class="about__cta">
-                <a class="btn btn--primary" target="_blank" rel="noopener"
-                   href="https://wa.me/5514988321868?text=Oi%20Ana%20Julia!%20Quero%20uma%20recomenda%C3%A7%C3%A3o%20de%20t%C3%A9cnica%20para%20meu%20caso.">
-                  Falar com você
-                </a>
-
-                <a class="btn btn--ghost" target="_blank" rel="noopener"
-                   href="https://www.instagram.com/anaju.terapeutamanual/">Instagram</a>
-
-                <a class="btn btn--ghost" href="#contato">Contato</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- AMBIENTE -->
-        <div class="ambient">
-          <div class="panel ambient__card">
-            <div class="ambient__img imgbox">
+          <div class="about__left">
+            <!-- FOTO REAL (se tiver) -->
+            <div class="card media media--square">
               <picture>
-                <source srcset="assets/ambiente.webp" type="image/webp" />
-                <img src="assets/ambiente.jpg" alt="Ambiente de atendimento em tons terrosos"
-                     loading="lazy" decoding="async" data-fallback />
+                <source srcset="assets/foto-ana-900.webp" type="image/webp" />
+                <img src="assets/foto-ana-900.jpg"
+                  alt="Ana Julia Pires, terapeuta manual"
+                  loading="lazy"
+                  width="900" height="900"
+                  data-fallback />
               </picture>
             </div>
-            <div class="panel__body">
-              <h3>Ambiente pensado para você desacelerar</h3>
-              <p class="maxw">
-                Um espaço aconchegante, com luz suave e clima de calma. Tudo para você se sentir segura, confortável e presente durante a sessão.
-              </p>
+
+            <!-- PLACEHOLDER PREMIUM (se quiser usar no lugar da foto, é só comentar o bloco acima e descomentar este) -->
+            <!--
+            <div class="card placeholder" aria-label="Foto da terapeuta (placeholder)">
+              <div class="placeholder__ring"></div>
+              <div class="placeholder__initials">AJ</div>
+              <div class="placeholder__sub">Foto opcional</div>
             </div>
+            -->
+          </div>
+
+          <article class="card about__right">
+            <h3>Prazer, eu sou <span class="accent">Ana Julia Pires</span>.</h3>
+            <p class="muted maxw">
+              Eu acredito que o toque terapêutico pode ser uma pausa real no meio da rotina. Cada sessão começa com uma escuta simples:
+              o que você sente, onde pesa, o que você precisa. A partir disso, eu ajusto técnica, ritmo e pressão para cuidar de você
+              com conforto e segurança — sem pressa, sem excesso, com presença.
+            </p>
+
+            <p class="muted maxw">
+              Se você estiver em dúvida sobre qual técnica escolher, pode me chamar no WhatsApp. Eu te ajudo a encontrar a melhor opção
+              para o seu objetivo e sensibilidade.
+            </p>
+
+            <div class="actions">
+              <a class="btn btn--primary"
+                href="https://wa.me/5514988321868?text=Oi%2C%20Ana!%20Estou%20em%20d%C3%BAvida%20sobre%20qual%20t%C3%A9cnica%20escolher.%20Pode%20me%20orientar%3F"
+                target="_blank" rel="noopener">
+                Falar com você
+              </a>
+
+              <a class="btn"
+                href="https://www.instagram.com/anaju.terapeutamanual/"
+                target="_blank" rel="noopener">
+                Instagram
+              </a>
+
+              <a class="btn btn--soft" href="#contato">Contato</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="ambient card">
+          <div class="ambient__media media">
+            <picture>
+              <source srcset="assets/ambiente.webp" type="image/webp" />
+              <img src="assets/ambiente.jpg"
+                alt="Ambiente zen e acolhedor para sessões"
+                loading="lazy"
+                width="1600" height="900"
+                data-fallback />
+            </picture>
+          </div>
+          <div class="ambient__copy">
+            <h3>Um espaço pensado para você</h3>
+            <p class="muted maxw">
+              Ambiente clean, música calma e um ritmo sem pressa. O objetivo é você se sentir segura, acolhida e confortável
+              para relaxar de verdade.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- COMO FUNCIONA -->
-    <section class="section" id="como-funciona">
+    <!-- Como funciona -->
+    <section id="como-funciona" class="section">
       <div class="container">
-        <div class="section__head">
-          <span class="kicker">Como funciona</span>
-          <h2>Do primeiro contato ao pós-sessão</h2>
-          <p class="maxw">Processo simples, humano e bem orientado — para você chegar tranquila e sair leve.</p>
-        </div>
+        <header class="head">
+          <span class="pill">Como funciona</span>
+          <h2>Simples, leve e no seu ritmo</h2>
+          <p class="muted maxw">Três passos para agendar e receber o cuidado ideal para o seu momento.</p>
+        </header>
 
         <div class="steps">
-          <article class="panel">
-            <div class="step__img imgbox">
+          <article class="card step">
+            <div class="media step__media">
               <picture>
-                <source srcset="assets/hero-massagem.webp" type="image/webp" />
-                <img src="assets/hero-massagem.jpg" alt="Recepção acolhedora"
-                     loading="lazy" decoding="async" data-fallback />
+                <source srcset="assets/me-chama-720.webp" type="image/webp" />
+                <img src="assets/me-chama-720.webp" alt="Detalhe do ambiente acolhedor" loading="lazy" width="1200" height="800" data-fallback />
               </picture>
             </div>
-            <div class="panel__body">
+            <div class="step__body">
               <h3>1) Você me chama</h3>
-              <p>Me diga sua principal queixa, onde sente mais e se prefere toque leve, médio ou firme. Eu te ajudo a escolher a melhor técnica.</p>
+              <p class="muted">Você manda uma mensagem no WhatsApp dizendo o que está sentindo e o que procura (relaxamento, dor, inchaço, mente acelerada…).</p>
             </div>
           </article>
 
-          <article class="panel">
-            <div class="step__img imgbox">
+          <article class="card step">
+            <div class="media step__media">
               <picture>
                 <source srcset="assets/ambiente.webp" type="image/webp" />
-                <img src="assets/ambiente.jpg" alt="Ambiente tranquilo"
-                     loading="lazy" decoding="async" data-fallback />
+                <img src="assets/ambiente.jpg" alt="Espaço terapêutico calmo" loading="lazy" width="1600" height="900" data-fallback />
               </picture>
             </div>
-            <div class="panel__body">
-              <h3>2) Sessão personalizada</h3>
-              <p>Começamos com escuta e avaliação rápida. Em seguida, conduzo a sessão respeitando seus limites e seu momento.</p>
+            <div class="step__body">
+              <h3>2) Eu te oriento</h3>
+              <p class="muted">Com base no seu objetivo e sensibilidade, eu indico a melhor técnica (ou combinação), sem complicar e sem exageros.</p>
             </div>
           </article>
 
-          <article class="panel">
-            <div class="step__img imgbox">
+          <article class="card step">
+            <div class="media step__media">
               <picture>
-                <source srcset="assets/me-chama.webp" type="image/webp" />
-                <img src="assets/me-chama.jpg" alt="Pós-sessão com chá e cuidado"
-                     loading="lazy" decoding="async" data-fallback class="img-focus-table"/>
+                <source srcset="assets/hero-massagem.webp" type="image/webp" />
+                <img src="assets/hero-massagem.jpg" alt="Clima de sessão relaxante" loading="lazy" width="1600" height="1000" data-fallback />
               </picture>
             </div>
-            <div class="panel__body">
-              <h3>3) Orientação e pós</h3>
-              <p>Você recebe orientações simples (hidratação, descanso, sinais do corpo) e pode tirar dúvidas por WhatsApp.</p>
+            <div class="step__body">
+              <h3>3) Sessão personalizada</h3>
+              <p class="muted">Você relaxa em um ambiente tranquilo, com ritmo e pressão ajustados. Ao final, se necessário, te passo orientações simples.</p>
             </div>
           </article>
         </div>
 
-        <div class="center-actions">
-          <a class="btn btn--primary" target="_blank" rel="noopener"
-             href="https://wa.me/5514988321868?text=Oi%20Ana%20Julia!%20Quero%20agendar%20uma%20sess%C3%A3o.">
+        <div class="center">
+          <a class="btn btn--primary"
+            href="https://wa.me/5514988321868?text=Oi%2C%20Ana!%20Quero%20agendar%20e%20preciso%20de%20uma%20recomenda%C3%A7%C3%A3o%20de%20t%C3%A9cnica.%20Pode%20me%20ajudar%3F"
+            target="_blank" rel="noopener">
             Agendar pelo WhatsApp
           </a>
         </div>
       </div>
     </section>
 
-    <!-- TÉCNICAS -->
-    <section class="section" id="tecnicas">
+    <!-- Técnicas -->
+    <section id="tecnicas" class="section">
       <div class="container">
-        <div class="section__head">
-          <span class="kicker">Técnicas</span>
+        <header class="head">
+          <span class="pill">Técnicas</span>
           <h2>Escolha o cuidado ideal para o seu momento</h2>
-          <p class="maxw">
-            Você pode escolher uma técnica específica ou combinar abordagens (quando fizer sentido para você).
-            O foco é aliviar, equilibrar e deixar o corpo mais leve.
+          <p class="muted maxw">
+            Página escaneável: resumo curto + detalhes. Se estiver em dúvida, me chama no WhatsApp e eu te ajudo.
           </p>
-        </div>
+        </header>
 
         <div class="grid">
-          <!-- 1 -->
-          <article class="card">
-            <div class="card__img imgbox">
+          <!-- Relaxante -->
+          <article class="card tech">
+            <div class="media tech__media">
               <picture>
                 <source srcset="assets/relaxante.webp" type="image/webp" />
-                <img src="assets/relaxante.jpg" alt="Massagem relaxante"
-                     loading="lazy" decoding="async" data-fallback />
+                <img src="assets/relaxante.jpg" alt="Massagem relaxante" loading="lazy" width="1600" height="900" data-fallback />
               </picture>
             </div>
-            <div class="card__body">
-              <div class="card__title">
+            <div class="tech__body">
+              <div class="tech__top">
                 <h3>Massagem Relaxante</h3>
-                <span class="badge">Bem-estar</span>
+                <span class="tag">Bem-estar</span>
               </div>
-              <p class="summary">Ideal para desacelerar e aliviar o peso do dia.</p>
-              <details class="card__more">
+              <p class="muted"><strong>Para desacelerar</strong>, aliviar estresse e soltar tensões do dia.</p>
+              <details class="more">
                 <summary>Ver detalhes</summary>
-                <p>
-                  A massagem relaxante combina manobras suaves e contínuas, com pressão ajustada ao seu conforto, para reduzir tensão,
-                  acalmar a mente e favorecer um estado de descanso real. É uma ótima escolha para estresse, ansiedade e sono irregular,
-                  ajudando o corpo a sair do “modo alerta”. Ao final, muita gente relata respiração mais solta, sensação de acolhimento
-                  e leveza no corpo todo — como se tivesse “desligado” por um tempo.
+                <p class="muted">
+                  Manobras suaves e contínuas, com pressão ajustada ao seu conforto. Ótima para ansiedade, estresse e sono irregular.
                 </p>
-                <div class="benefits">
-                  <strong>Benefícios</strong>
-                  <ul>
-                    <li>Reduz estresse e tensão leve</li>
-                    <li>Melhora qualidade do sono</li>
-                    <li>Promove calma e bem-estar</li>
-                  </ul>
-                </div>
               </details>
+              <ul class="bullets">
+                <li>Reduz estresse e ansiedade</li>
+                <li>Solta tensões leves</li>
+                <li>Ajuda no sono</li>
+              </ul>
             </div>
           </article>
 
-          <!-- 2 -->
-          <article class="card">
-            <div class="card__img imgbox">
+          <!-- Pedras -->
+          <article class="card tech">
+            <div class="media tech__media">
               <picture>
-                <source srcset="assets/pedras-quentes.webp" type="image/webp" />
-                <img src="assets/pedras-quentes.jpg" alt="Massagem com pedras quentes"
-                     loading="lazy" decoding="async" data-fallback />
+                <source srcset="assets/pedras-quentes.jpg" type="image/webp" />
+                <img src="assets/pedras-quentes.jpg" alt="Massagem com pedras quentes" loading="lazy" width="1600" height="900" data-fallback />
               </picture>
             </div>
-            <div class="card__body">
-              <div class="card__title">
+            <div class="tech__body">
+              <div class="tech__top">
                 <h3>Pedras Quentes</h3>
-                <span class="badge">Calor</span>
+                <span class="tag">Calor</span>
               </div>
-              <p class="summary">Aquecimento profundo para relaxar e soltar tensões.</p>
-              <details class="card__more">
+              <p class="muted"><strong>Relaxamento profundo</strong> e sensação de acolhimento.</p>
+              <details class="more">
                 <summary>Ver detalhes</summary>
-                <p>
-                  Técnica profundamente acolhedora em que o calor das pedras ajuda a relaxar a musculatura e preparar o corpo
-                  para manobras com mais conforto. Indicada para rigidez, tensão acumulada e exaustão física e mental.
-                  As pedras são posicionadas e usadas com movimentos suaves, criando uma sensação de “abraço” e aquecimento contínuo.
-                  Ideal para dias frios, estresse alto e quando o corpo pede pausa e aconchego.
-                </p>
-                <div class="benefits">
-                  <strong>Benefícios</strong>
-                  <ul>
-                    <li>Relaxamento muscular profundo</li>
-                    <li>Alívio de rigidez e tensão</li>
-                    <li>Sensação de aconchego</li>
-                  </ul>
-                </div>
+                <p class="muted">O calor ajuda a relaxar a musculatura e prepara o corpo para receber manobras com mais conforto.</p>
               </details>
+              <ul class="bullets">
+                <li>Relaxamento muscular</li>
+                <li>Conforto e acolhimento</li>
+                <li>Ajuda em rigidez por tensão</li>
+              </ul>
             </div>
           </article>
 
-          <!-- 3 -->
-          <article class="card">
-            <div class="card__img imgbox">
+          <!-- Miofascial -->
+          <article class="card tech">
+            <div class="media tech__media">
               <picture>
                 <source srcset="assets/miofascial.webp" type="image/webp" />
-                <img src="assets/miofascial.jpg" alt="Liberação miofascial"
-                     loading="lazy" decoding="async" data-fallback />
+                <img src="assets/miofascial.jpg" alt="Liberação miofascial" loading="lazy" width="1600" height="900" data-fallback />
               </picture>
             </div>
-            <div class="card__body">
-              <div class="card__title">
+            <div class="tech__body">
+              <div class="tech__top">
                 <h3>Liberação Miofascial</h3>
-                <span class="badge">Mobilidade</span>
+                <span class="tag">Mobilidade</span>
               </div>
-              <p class="summary">Para travamentos, dor recorrente e tensão profunda.</p>
-              <details class="card__more">
+              <p class="muted"><strong>Para “nós” e tensões profundas</strong>, com controle e segurança.</p>
+              <details class="more">
                 <summary>Ver detalhes</summary>
-                <p>
-                  Indicada para quem sente travamentos, dor recorrente ou tensão mais profunda. Atua em pontos e linhas de tensão
-                  com pressão progressiva e controlada, respeitando seus limites. Muito útil para pescoço, ombros, costas e lombar,
-                  especialmente quando há sobrecarga por postura, treino ou estresse. O objetivo é devolver mobilidade, reduzir dor
-                  e melhorar a sensação corporal, sem “agredir” o corpo.
-                </p>
-                <div class="benefits">
-                  <strong>Benefícios</strong>
-                  <ul>
-                    <li>Melhora mobilidade</li>
-                    <li>Reduz dor e rigidez</li>
-                    <li>Alivia pontos de tensão</li>
-                  </ul>
-                </div>
+                <p class="muted">Trabalha pontos e linhas de tensão com pressão progressiva, respeitando seus limites.</p>
               </details>
+              <ul class="bullets">
+                <li>Reduz “nós”</li>
+                <li>Melhora mobilidade</li>
+                <li>Auxilia postura</li>
+              </ul>
             </div>
           </article>
 
-          <!-- 4 -->
-          <article class="card">
-            <div class="card__img imgbox">
+          <!-- Drenagem -->
+          <article class="card tech">
+            <div class="media tech__media">
               <picture>
-                <source srcset="assets/drenagem.webp" type="image/webp" />
-                <img src="assets/drenagem.jpg" alt="Drenagem linfática"
-                     loading="lazy" decoding="async" data-fallback />
+                <source srcset="assets/drenagem.jpg" type="image/webp" />
+                <img src="assets/drenagem.jpg" alt="Drenagem linfática corporal" loading="lazy" width="1600" height="900" data-fallback />
               </picture>
             </div>
-            <div class="card__body">
-              <div class="card__title">
+            <div class="tech__body">
+              <div class="tech__top">
                 <h3>Drenagem Linfática</h3>
-                <span class="badge">Leveza</span>
+                <span class="tag">Leveza</span>
               </div>
-              <p class="summary">Ajuda a reduzir inchaço e retenção de líquidos.</p>
-              <details class="card__more">
+              <p class="muted"><strong>Manobras suaves</strong> para reduzir inchaço e sensação de peso.</p>
+              <details class="more">
                 <summary>Ver detalhes</summary>
-                <p>
-                  Técnica suave e ritmada para estimular o sistema linfático e ajudar a reduzir inchaço e retenção de líquidos.
-                  Ideal para pernas pesadas, edema e sensação de “corpo inchado”. As manobras são delicadas (não é massagem forte)
-                  e seguem um direcionamento específico, trazendo conforto. Com regularidade, melhora a sensação de leveza e bem-estar,
-                  principalmente em períodos de calor, sedentarismo ou rotina intensa.
-                </p>
-                <div class="benefits">
-                  <strong>Benefícios</strong>
-                  <ul>
-                    <li>Ajuda a reduzir inchaço</li>
-                    <li>Melhora sensação de pernas leves</li>
-                    <li>Conforto corporal</li>
-                  </ul>
-                </div>
+                <p class="muted">Técnica suave e ritmada para ajudar retenção e trazer leveza (não é massagem forte).</p>
               </details>
+              <ul class="bullets">
+                <li>Ajuda no inchaço</li>
+                <li>Pernas mais leves</li>
+                <li>Toque confortável</li>
+              </ul>
             </div>
           </article>
 
-          <!-- 5 -->
-          <article class="card">
-            <div class="card__img imgbox">
+          <!-- Drenagem facial -->
+          <article class="card tech">
+            <div class="media tech__media">
               <picture>
                 <source srcset="assets/drenagem-facial.webp" type="image/webp" />
-                <img src="assets/drenagem-facial.jpg" alt="Drenagem linfática facial"
-                     loading="lazy" decoding="async" data-fallback class="img-focus-face" />
+                <img src="assets/drenagem-facial.jpg" alt="Drenagem facial" loading="lazy" width="1600" height="900" data-fallback />
               </picture>
             </div>
-            <div class="card__body">
-              <div class="card__title">
+            <div class="tech__body">
+              <div class="tech__top">
                 <h3>Drenagem Facial</h3>
-                <span class="badge">Rosto leve</span>
+                <span class="tag">Rosto leve</span>
               </div>
-              <p class="summary">Reduz bolsas e inchaço com toque delicado.</p>
-              <details class="card__more">
+              <p class="muted"><strong>Reduz aparência de cansaço</strong> com toque delicado.</p>
+              <details class="more">
                 <summary>Ver detalhes</summary>
-                <p>
-                  Um cuidado delicado para reduzir a sensação de rosto inchado e aparência de cansaço.
-                  Estimula o fluxo linfático em olhos, bochechas e mandíbula com manobras suaves e específicas.
-                  Indicada para quem passa muito tempo em telas, acorda com inchaço ou vive sob estresse.
-                  O toque é confortável e profundamente relaxante, deixando a face mais “solta” e a respiração mais tranquila.
-                </p>
-                <div class="benefits">
-                  <strong>Benefícios</strong>
-                  <ul>
-                    <li>Ajuda a reduzir bolsas e inchaço</li>
-                    <li>Relaxamento facial imediato</li>
-                    <li>Aspecto de descanso</li>
-                  </ul>
-                </div>
+                <p class="muted">Manobras suaves para estimular o fluxo linfático e aliviar a sensação de rosto inchado.</p>
               </details>
+              <ul class="bullets">
+                <li>Ajuda a reduzir bolsas</li>
+                <li>Relaxamento imediato</li>
+                <li>Ritual de autocuidado</li>
+              </ul>
             </div>
           </article>
 
-          <!-- 6 MAF -->
-          <article class="card">
-            <div class="card__img imgbox">
+          <!-- Método MAF -->
+          <article class="card tech">
+            <div class="media tech__media media--maf">
               <picture>
-                <source srcset="assets/metodo-maf-16x10.webp" type="image/webp" />
-                <img src="assets/metodo-maf-16x10.jpg" alt="Método MAF"
-                     loading="lazy" decoding="async" data-fallback class="img-focus-body" />
+                <source srcset="assets/metodo-maf.webp" type="image/webp" />
+                <img src="assets/metodo-maf.jpg" alt="Método MAF" loading="lazy" width="1600" height="900" data-fallback />
               </picture>
             </div>
-            <div class="card__body">
-              <div class="card__title">
+            <div class="tech__body">
+              <div class="tech__top">
                 <h3>Método MAF</h3>
-                <span class="badge">Integração</span>
+                <span class="tag tag--premium">Premium</span>
               </div>
-              <p class="summary">Equilíbrio físico e emocional com abordagem integrativa.</p>
-              <details class="card__more">
+              <p class="muted"><strong>Método corporal integrativo</strong> com atuação funcional e profunda.</p>
+              <details class="more">
                 <summary>Ver detalhes</summary>
-                <p>
-                  Abordagem integrativa que busca reorganizar tensões e favorecer equilíbrio físico e emocional.
-                  A sessão é conduzida com escuta e presença, combinando estímulos terapêuticos de forma personalizada.
-                  Indicado para quem sente o corpo sobrecarregado, com tensão que “volta sempre”, ou quando o estresse
-                  se manifesta fisicamente. A intenção é um relaxamento mais profundo e duradouro, com sensação de corpo
-                  mais alinhado e leve.
-                </p>
-                <div class="benefits">
-                  <strong>Benefícios</strong>
-                  <ul>
-                    <li>Reequilíbrio e relaxamento profundo</li>
-                    <li>Atendimento totalmente personalizado</li>
-                    <li>Ajuda na sensação de sobrecarga</li>
-                  </ul>
-                </div>
+                <p class="muted">Foco em contorno corporal, retenção de líquidos e qualidade da pele, com abordagem segura.</p>
               </details>
+              <ul class="bullets">
+                <li>Contorno corporal</li>
+                <li>Circulação/metabolismo local</li>
+                <li>Ajuda em edemas</li>
+              </ul>
             </div>
           </article>
 
-          <!-- 7 -->
-          <article class="card">
-            <div class="card__img imgbox">
+          <!-- Reiki -->
+          <article class="card tech">
+            <div class="media tech__media">
               <picture>
-                <source srcset="assets/reiki.webp" type="image/webp" />
-                <img src="assets/reiki.jpg" alt="Reiki"
-                     loading="lazy" decoding="async" data-fallback />
+                <source srcset="assets/reiki.jpg" type="image/webp" />
+                <img src="assets/reiki.jpg" alt="Reiki" loading="lazy" width="1600" height="900" data-fallback />
               </picture>
             </div>
-            <div class="card__body">
-              <div class="card__title">
+            <div class="tech__body">
+              <div class="tech__top">
                 <h3>Reiki</h3>
-                <span class="badge">Energia</span>
+                <span class="tag">Energia</span>
               </div>
-              <p class="summary">Terapia energética com imposição de mãos.</p>
-              <details class="card__more">
+              <p class="muted"><strong>Equilíbrio e tranquilidade</strong> por imposição de mãos.</p>
+              <details class="more">
                 <summary>Ver detalhes</summary>
-                <p>
-                  Terapia energética por imposição de mãos, voltada para promover equilíbrio e bem-estar.
-                  Você descansa em um ambiente tranquilo e acolhedor, enquanto a sessão acontece com calma e intenção.
-                  Muitas pessoas relatam paz, leveza emocional e clareza mental — como se a mente desacelerasse.
-                  Pode ser feito sozinho ou combinado com massagem, dependendo do seu objetivo.
-                </p>
-                <div class="benefits">
-                  <strong>Benefícios</strong>
-                  <ul>
-                    <li>Relaxamento e sensação de paz</li>
-                    <li>Equilíbrio emocional</li>
-                    <li>Ajuda a desacelerar a mente</li>
-                  </ul>
-                </div>
+                <p class="muted">Sessão calma e acolhedora. Muitas pessoas relatam paz, leveza emocional e clareza mental.</p>
               </details>
+              <ul class="bullets">
+                <li>Sensação de paz</li>
+                <li>Equilíbrio emocional</li>
+                <li>Mente mais calma</li>
+              </ul>
             </div>
           </article>
 
-          <!-- 8 -->
-          <article class="card">
-            <div class="card__img imgbox">
+          <!-- Barras -->
+          <article class="card tech">
+            <div class="media tech__media">
               <picture>
-                <source srcset="assets/barras.webp" type="image/webp" />
-                <img src="assets/barras.jpg" alt="Barras de Access"
-                     loading="lazy" decoding="async" data-fallback />
+                <source srcset="assets/barras.jpg" type="image/webp" />
+                <img src="assets/barras.jpg" alt="Barras de Access" loading="lazy" width="1600" height="900" data-fallback />
               </picture>
             </div>
-            <div class="card__body">
-              <div class="card__title">
+            <div class="tech__body">
+              <div class="tech__top">
                 <h3>Barras de Access</h3>
-                <span class="badge">Reset</span>
+                <span class="tag">Reset</span>
               </div>
-              <p class="summary">Toque suave em pontos da cabeça para aliviar sobrecarga mental.</p>
-              <details class="card__more">
+              <p class="muted"><strong>Toque suave</strong> para reduzir sobrecarga mental.</p>
+              <details class="more">
                 <summary>Ver detalhes</summary>
-                <p>
-                  Técnica de toque suave em pontos específicos da cabeça, associada a relaxamento e redução de sobrecarga mental.
-                  A proposta é diminuir o fluxo de pensamentos e aliviar tensão emocional. Você descansa enquanto a sessão acontece,
-                  sem esforço. Indicada para ansiedade, mente acelerada, dificuldade para dormir e sensação de estafa.
-                </p>
-                <div class="benefits">
-                  <strong>Benefícios</strong>
-                  <ul>
-                    <li>Reduz mente acelerada</li>
-                    <li>Auxilia o sono</li>
-                    <li>Leveza e clareza</li>
-                  </ul>
-                </div>
+                <p class="muted">Toque em pontos específicos da cabeça para desacelerar pensamentos e aliviar tensão.</p>
               </details>
+              <ul class="bullets">
+                <li>Ajuda no sono</li>
+                <li>Menos mente acelerada</li>
+                <li>Leveza</li>
+              </ul>
             </div>
           </article>
 
-          <!-- 9 -->
-          <article class="card">
-            <div class="card__img imgbox">
+          <!-- Radiestesia -->
+          <article class="card tech">
+            <div class="media tech__media">
               <picture>
-                <source srcset="assets/radiestesia.webp" type="image/webp" />
-                <img src="assets/radiestesia.jpg" alt="Radiestesia"
-                     loading="lazy" decoding="async" data-fallback />
+                <source srcset="assets/radiestesia.jpeg" type="image/webp" />
+                <img src="assets/radiestesia.jpeg" alt="Radiestesia" loading="lazy" width="1600" height="900" data-fallback />
               </picture>
             </div>
-            <div class="card__body">
-              <div class="card__title">
+            <div class="tech__body">
+              <div class="tech__top">
                 <h3>Radiestesia</h3>
-                <span class="badge">Harmonizar</span>
+                <span class="tag">Harmonizar</span>
               </div>
-              <p class="summary">Organização energética com abordagem leve e acolhedora.</p>
-              <details class="card__more">
+              <p class="muted"><strong>Harmonização energética</strong> para você e para o ambiente.</p>
+              <details class="more">
                 <summary>Ver detalhes</summary>
-                <p>
-                  Prática voltada para identificar e harmonizar padrões energéticos, trazendo mais equilíbrio para você e para o ambiente.
-                  Pode ser usada como suporte em processos de bem-estar e organização energética, com uma abordagem leve e acolhedora.
-                  O atendimento é conduzido com explicações claras e respeito ao seu momento.
-                </p>
-                <div class="benefits">
-                  <strong>Benefícios</strong>
-                  <ul>
-                    <li>Harmonização energética</li>
-                    <li>Leveza e clareza</li>
-                    <li>Suporte integrativo</li>
-                  </ul>
-                </div>
+                <p class="muted">Abordagem leve e acolhedora para renovação energética e equilíbrio.</p>
               </details>
+              <ul class="bullets">
+                <li>Leveza</li>
+                <li>Clareza</li>
+                <li>Suporte integrativo</li>
+              </ul>
             </div>
           </article>
 
-          <!-- 10 Reflexologia -->
-          <article class="card">
-            <div class="card__img imgbox">
+          <!-- Reflexologia (cortar pra pegar pés) -->
+          <article class="card tech">
+            <div class="media tech__media media--reflex">
               <picture>
                 <source srcset="assets/reflexologia-podal.webp" type="image/webp" />
-                <img src="assets/reflexologia-podal.jpg" alt="Reflexologia podal: pés em ambiente acolhedor"
-                     loading="lazy" decoding="async" data-fallback class="img-focus-feet" />
+                <img src="assets/reflexologia-podal.jpg"
+                  alt="Reflexologia podal: foco nos pés"
+                  loading="lazy" width="1600" height="900"
+                  data-fallback />
               </picture>
             </div>
-            <div class="card__body">
-              <div class="card__title">
+            <div class="tech__body">
+              <div class="tech__top">
                 <h3>Reflexologia Podal</h3>
-                <span class="badge">Pés</span>
+                <span class="tag">Pés</span>
               </div>
-              <p class="summary">Alívio do cansaço e relaxamento geral através dos pés.</p>
-              <details class="card__more">
+              <p class="muted"><strong>Alívio do cansaço</strong> e relaxamento geral através dos pés.</p>
+              <details class="more">
                 <summary>Ver detalhes</summary>
-                <p>
-                  Técnica que estimula pontos específicos nos pés relacionados a diferentes áreas do corpo, promovendo relaxamento e equilíbrio.
-                  Excelente para quem sente cansaço, fica muito tempo em pé ou quer um cuidado profundo sem fazer uma massagem corporal completa.
-                  O toque é firme na medida certa e adaptado à sua sensibilidade. Além do alívio nos pés, muitas pessoas sentem calma geral e mais presença no corpo.
-                </p>
-                <div class="benefits">
-                  <strong>Benefícios</strong>
-                  <ul>
-                    <li>Alívio do cansaço nos pés</li>
-                    <li>Relaxamento geral</li>
-                    <li>Sensação de equilíbrio</li>
-                  </ul>
-                </div>
+                <p class="muted">Estimula pontos específicos nos pés, promovendo relaxamento e sensação de equilíbrio.</p>
               </details>
+              <ul class="bullets">
+                <li>Alívio do cansaço</li>
+                <li>Relaxamento geral</li>
+                <li>Sensação de equilíbrio</li>
+              </ul>
             </div>
           </article>
+        </div>
+
+        <div class="center">
+          <a class="btn btn--primary"
+            href="https://wa.me/5514988321868?text=Oi%2C%20Ana!%20Pode%20me%20indicar%20a%20melhor%20t%C3%A9cnica%20para%20mim%3F"
+            target="_blank" rel="noopener">
+            Quero ajuda para escolher
+          </a>
         </div>
       </div>
     </section>
 
     <!-- FAQ -->
-    <section class="section" id="faq">
+    <section id="faq" class="section">
       <div class="container">
-        <div class="section__head">
-          <span class="kicker">FAQ</span>
-          <h2>Dúvidas frequentes</h2>
-          <p class="maxw">Respostas diretas para você se sentir segura antes de agendar.</p>
-        </div>
+        <header class="head">
+          <span class="pill">FAQ</span>
+          <h2>Dúvidas comuns</h2>
+          <p class="muted maxw">Respostas rápidas para você se sentir segura antes de agendar.</p>
+        </header>
 
         <div class="faq">
-          <details class="panel faq__item">
-            <summary class="faq__sum">
-              <span class="faq__icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none"><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z" stroke="currentColor" stroke-width="1.8"/><path d="M9.5 9a2.6 2.6 0 1 1 4.2 2c-.9.6-1.2 1-1.2 2v.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M12 17.3h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
-              </span>
-              Como escolher a técnica ideal?
-              <span class="faq__chev">+</span>
+          <details class="card faq__item">
+            <summary class="faq__q">
+              <span>Qual técnica devo escolher?</span>
+              <span class="faq__plus" aria-hidden="true">+</span>
             </summary>
-            <div class="panel__body">
-              <p>Me conte sua queixa principal e sua preferência de pressão (leve/média/firme). Eu te oriento por WhatsApp e, se fizer sentido, combinamos abordagens.</p>
+            <div class="faq__a muted">
+              Depende do seu objetivo (relaxar, aliviar dor, reduzir inchaço, desacelerar a mente) e da sua sensibilidade ao toque.
+              Me chama no WhatsApp que eu te indico a melhor opção.
             </div>
           </details>
 
-          <details class="panel faq__item">
-            <summary class="faq__sum">
-              <span class="faq__icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none"><path d="M12 8v4l2.6 2.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z" stroke="currentColor" stroke-width="1.8"/></svg>
-              </span>
-              Quanto tempo dura a sessão?
-              <span class="faq__chev">+</span>
+          <details class="card faq__item">
+            <summary class="faq__q">
+              <span>Onde você atende?</span>
+              <span class="faq__plus" aria-hidden="true">+</span>
             </summary>
-            <div class="panel__body">
-              <p>Em média, de 60 a 90 minutos, dependendo da técnica e do seu objetivo. Tudo com tempo de chegada e saída tranquilas.</p>
+            <div class="faq__a muted">
+              Atendimento na Chez La Belle de Jour | Clínica de Estética em <strong>Bauru-SP</strong>, com hora marcada.
+              Posso te enviar o endereço certinho e orientação de chegada pelo WhatsApp.
             </div>
           </details>
 
-          <details class="panel faq__item">
-            <summary class="faq__sum">
-              <span class="faq__icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none"><path d="M4 12h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M7 12c0-3 2-6 5-6s5 3 5 6-2 6-5 6-5-3-5-6Z" stroke="currentColor" stroke-width="1.8"/></svg>
-              </span>
-              Preciso fazer algo antes/depois?
-              <span class="faq__chev">+</span>
+          <details class="card faq__item">
+            <summary class="faq__q">
+              <span>Quanto tempo dura a sessão?</span>
+              <span class="faq__plus" aria-hidden="true">+</span>
             </summary>
-            <div class="panel__body">
-              <p>Antes: venha confortável e alimente-se leve. Depois: hidrate-se bem e, se possível, reduza o ritmo por algumas horas. Eu te passo orientações no fim.</p>
+            <div class="faq__a muted">
+              Normalmente de <strong>60 a 90 minutos</strong>, variando conforme a técnica e sua necessidade.
+              Eu confirmo a duração ideal no agendamento.
             </div>
           </details>
         </div>
       </div>
     </section>
 
-    <!-- CONTATO -->
-    <section class="section" id="contato">
+    <!-- Contato -->
+    <section id="contato" class="section">
       <div class="container">
-        <div class="section__head">
-          <span class="kicker">Contato</span>
+        <header class="head">
+          <span class="pill">Contato</span>
           <h2>Vamos agendar seu momento de cuidado</h2>
-          <p class="maxw">Me chame no WhatsApp para horários, valores e indicação da melhor técnica.</p>
-        </div>
+          <p class="muted maxw">Me chame no WhatsApp para horários, valores e indicação da melhor técnica.</p>
+        </header>
 
         <div class="contact">
-          <div class="panel">
-            <div class="panel__body">
-              <h3>Atendimento</h3>
-              <p class="subtle">📍 Bauru-SP</p>
-              <p class="subtle">⏳ Sessões: <strong>60–90 min</strong></p>
-              <p class="subtle">🌿 Ambiente zen • tons terrosos • música suave</p>
+          <article class="card contact__card">
+            <h3>Atendimento</h3>
+            <p class="muted">
+              📍 <strong>Bauru-SP</strong><br />
+              ⏳ Sessões: <strong>60–90 min</strong><br />
+              🌿 Ambiente zen • música suave
+            </p>
 
-              <p class="maxw">
-                Quer uma recomendação rápida? Me diga: (1) sua principal queixa, (2) onde sente mais,
-                (3) se prefere toque leve ou médio.
-              </p>
+            <div class="actions">
+              <a class="btn btn--soft"
+                href="https://maps.app.goo.gl/HVoXfVudUBUTXkjn7"
+                target="_blank" rel="noopener">
+                Ver no mapa
+              </a>
 
-              <div class="contact__extras">
-                <button class="btn btn--ghost" id="copyPhone" type="button">Copiar WhatsApp</button>
-                <a class="btn btn--ghost" href="#inicio">Voltar ao topo</a>
-              </div>
+              <button class="btn" type="button" id="copyPhone">Copiar WhatsApp</button>
             </div>
-          </div>
 
-          <div class="panel">
-            <div class="panel__body">
-              <h3>Fale comigo</h3>
+            <p class="muted small">
+              Quer recomendação rápida? Me diga: (1) sua principal queixa, (2) onde sente mais, (3) se prefere toque leve ou médio.
+            </p>
+          </article>
 
-              <div class="panel imgbox contact__media">
-                <picture>
-                  <source srcset="assets/me-chama.webp" type="image/webp" />
-                  <img src="assets/me-chama.jpg" alt="Acolhimento no pós-sessão"
-                       loading="lazy" decoding="async" data-fallback class="img-focus-table" />
-                </picture>
-              </div>
+          <article class="card contact__card">
+            <h3>Fale comigo</h3>
 
-              <div class="contact__actions">
-                <a class="btn btn--primary" target="_blank" rel="noopener"
-                   href="https://wa.me/5514988321868?text=Oi%20Ana%20Julia!%20Quero%20agendar%20uma%20sess%C3%A3o.">
-                  WhatsApp
-                </a>
+            <div class="actions">
+              <a class="btn btn--primary"
+                href="https://wa.me/5514988321868?text=Oi%2C%20Ana!%20Vim%20pelo%20site%20e%20quero%20agendar.%20Me%20passa%20hor%C3%A1rios%20e%20valores%2C%20por%20favor%3F"
+                target="_blank" rel="noopener">
+                WhatsApp
+              </a>
 
-                <a class="btn btn--ghost" target="_blank" rel="noopener"
-                   href="https://www.instagram.com/anaju.terapeutamanual/">
-                  Instagram
-                </a>
-              </div>
+              <a class="btn"
+                href="https://www.instagram.com/anaju.terapeutamanual/"
+                target="_blank" rel="noopener">
+                Instagram
+              </a>
 
-              <div class="contact__mini">
-                <span class="mini">WhatsApp: (14) 98832-1868</span>
-                <span class="mini">Instagram: @anaju.terapeutamanual</span>
-                <span class="mini">Local: Bauru-SP</span>
-              </div>
+              <a class="btn btn--soft" href="#inicio">Voltar ao topo</a>
             </div>
-          </div>
+
+            <div class="chips">
+              <span class="chip">WhatsApp: (14) 98832-1868</span>
+              <span class="chip">Instagram: @anaju.terapeutamanual</span>
+              <span class="chip">Local: Bauru-SP</span>
+            </div>
+          </article>
         </div>
 
         <footer class="footer">
-          <p>© <span id="ano"></span> • Ana Julia Pires • Massoterapia & Terapias Holísticas</p>
+          © <span id="year"></span> • Ana Julia Pires • Massoterapia & Terapias Holísticas
         </footer>
       </div>
     </section>
   </main>
 
-  <!-- Floating WhatsApp -->
-  <a class="float-wa" target="_blank" rel="noopener"
-     href="https://wa.me/5514988321868?text=Oi%20Ana%20Julia!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20sess%C3%A3o.">
-    <span class="float-wa__icon" aria-hidden="true">
-      <svg viewBox="0 0 24 24" fill="none">
-        <path d="M20.5 11.9a8.5 8.5 0 0 1-12.9 7.3L4 20l.9-3.3A8.5 8.5 0 1 1 20.5 11.9Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M9.1 9.2c.2-.5.4-.5.7-.5h.6c.2 0 .4 0 .5.4.2.4.7 1.7.8 1.8.1.2.1.4 0 .6l-.3.4c-.1.2-.2.3 0 .6.2.3.8 1.4 1.9 2.2 1.4 1 1.6.9 1.9.8l.6-.2c.2-.1.4 0 .6 0l1.8.8c.3.1.4.3.4.5 0 .2 0 1.2-.5 1.7-.4.4-1.2.8-2 .7-.8-.1-3-.6-4.9-2.5-1.8-1.8-2.5-4-2.6-4.8-.1-.8.3-1.6.7-2Z" fill="currentColor" opacity=".9"/>
-      </svg>
+  <!-- WhatsApp flutuante -->
+  <a class="floatwa" href="https://wa.me/5514988321868?text=Oi%2C%20Ana!%20Vim%20pelo%20site%20%F0%9F%8C%BF%20Quero%20agendar%20uma%20sess%C3%A3o."
+     target="_blank" rel="noopener"
+     aria-label="Abrir WhatsApp">
+    <span class="ico" aria-hidden="true">
+      <svg viewBox="0 0 32 32"><path fill="currentColor" d="M19.11 17.47c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.17-1.34-.8-.72-1.34-1.61-1.5-1.88-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.02-.22-.52-.45-.45-.61-.46h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27 0 1.34.98 2.64 1.12 2.82.14.18 1.93 2.95 4.68 4.13.65.28 1.16.45 1.56.58.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.83-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32z"/><path fill="currentColor" d="M26.67 5.33A14.6 14.6 0 0 0 16.01 1C7.73 1 1 7.73 1 16c0 2.64.69 5.21 2.01 7.48L1 31l7.7-2.02A15 15 0 0 0 16.01 31C24.29 31 31 24.27 31 16a14.6 14.6 0 0 0-4.33-10.67zM16.01 28.4c-2.3 0-4.55-.62-6.5-1.79l-.47-.28-4.56 1.2 1.22-4.45-.31-.49A12.35 12.35 0 0 1 3.6 16c0-6.84 5.57-12.4 12.41-12.4 3.31 0 6.42 1.29 8.76 3.63A12.3 12.3 0 0 1 28.4 16c0 6.84-5.56 12.4-12.39 12.4z"/></svg>
     </span>
-    <span class="float-wa__text">WhatsApp</span>
+    <span class="floatwa__txt">WhatsApp</span>
   </a>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
